@@ -1,0 +1,190 @@
+/*
+Theme Name: Divi child theme
+Description: Th�me enfant pour Divi
+Author: Le nom de l'auteur
+Template: Divi
+*/
+
+@import url("../Divi/style.css");
+/* on masque l'icone d ecadie dans le menu */
+a.et-cart-info {
+display: none !important;
+}
+
+.related.products {
+    display: none;
+}
+
+#menu-menu-le-pilotage { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-le-pilotage { width:1;height:1; }
+#menu-menu-le-pilote { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-le-pilote { width:1;height:1; }
+
+
+
+#menu-menu-le-poste-de-pilotage { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-le-poste-de-pilotage_clone  { width:1;height:1; }
+#menu-menu-plan-de-reaction { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-plan-de-reaction_clone  { width:1;height:1; }
+
+#menu-menu-parachute-de-secours { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-parachute-de-secours_clone  { width:1;height:1; }
+#menu-turlulence-pilotage { width:200px !important; z-index:100; position:fixed; }
+#menu-turlulence-pilotage_clone  { width:1;height:1; }
+
+
+#menu-menu-decrochage-asymetrique { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-decrochage-asymetrique_clone { width:1;height:1; }
+
+#menu-menu-le-decrochage-et-la-marche-arriere { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-le-decrochage-et-la-marche-arriere_clone { width:1;height:1; }
+#menu-menu-wing-overs { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-wing-overs_clone { width:1;height:1; }
+#menu-menu-pilotage-cross { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-pilotage-cross_clone { width:1;height:1; }
+#menu-menu-pilotage-pendulaire { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-pilotage-pendulaire_clone { width:1;height:1; }
+#menu-menu-autorotation{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-autorotation_clone { width:1;height:1; }
+#menu-menu-vrille{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-vrille_clone { width:1;height:1; }
+#menu-menu-twist{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-twist_clone { width:1;height:1; }
+#menu-menu-pilotage-parapente { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-pilotage-parapente_clone { width:1;height:1; }
+#menu-menu-profils-pilotage { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-profils-pilotage_clone { width:1;height:1; }
+#menu-menu-turbulence-pilotage { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-turbulence-pilotage_clone { width:1;height:1; }
+#menu-menu-la-tempo-2 { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-la-tempo-2_clone { width:1;height:1; }
+#menu-menu-360-engages { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-360-engages_clone { width:1;height:1; }
+#menu-menu-incidents-de-vol-2 { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-incidents-de-vol-2_clone { width:1;height:1; }
+#menu-menu-descendre { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-descendre_clone { width:1;height:1; }
+#menu-menu-pendulaire-intro { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-pendulaire-intro_clone { width:1;height:1; }
+#menu-menu-pendulaire-roulis { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-pendulaire-roulis_clone { width:1;height:1; }
+#menu-menu-pendulaire-tangage { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-pendulaire-tangage_clone { width:1;height:1; }
+#menu-menu-virages-pendulaires { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-virages-pendulaires_clone { width:1;height:1; }
+#menu-menu-360-initiation{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-360-initiation_clone { width:1;height:1; }
+#menu-menu-voltige-intro { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-intro_clone { width:1;height:1; }
+#menu-menu-voltige-SAT { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-SAT_clone { width:1;height:1; }
+#menu-menu-voltige-helicoptere{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-helicoptere_clone { width:1;height:1; }
+#menu-menu-voltige-360-asymetrique { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-360-asymetrique_clone { width:1;height:1; }
+#menu-menu-voltige-enchainements { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-enchainements_clone { width:1;height:1; }
+#menu-menu-voltige-autres-manoeuvres{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-autres-manoeuvres_clone { width:1;height:1; }
+#menu-menu-voltige-sat{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-sat_clone { width:1;height:1; }
+#menu-menu-voltige-360-asymetriques{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-360-asymetriques_clone { width:1;height:1; }
+
+#menu-menu-voltige-decrochage-dynamique{ width:200px !important; z-index:100; position:fixed; }
+#menu-menu-voltige-decrochage-dynamique_clone { width:1;height:1; }
+
+#menu-le-twist-2{ width:200px !important; z-index:100; position:fixed; }
+#menu-le-twist-2_clone { width:1;height:1; }
+
+#menu-menu-bleu { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-bleu_clone { width:1;height:1; }
+#menu-menu-marron { width:200px !important; z-index:100; position:fixed; }
+#menu-menu-marron_clone { width:1;height:1; }
+
+
+
+@media screen and (max-width: 940px)
+{
+
+#menu-menu-le-pilotage { width:200px !important; display:none;visibility:hidden; }
+#menu-menu-le-pilotage_clone { width:1;height:1; }
+#menu-menu-le-pilote { width:200px !important; display:none;visibility:hidden;  }
+#menu-menu-le-pilote_clone { width:1;height:1; }
+
+#menu-menu-le-poste-de-pilotage { width:200px !important; display:none;visibility:hidden; }
+#menu-menu-le-poste-de-pilotage_clone { width:1;height:1; }
+#menu-menu-plan-de-reaction { width:200px !important; display:none;visibility:hidden; }
+#menu-menu-plan-de-reaction_clone { width:1;height:1; }
+
+#menu-menu-parachute-de-secours{ width:200px !important; display:none;visibility:hidden; }
+#menu-menu-parachute-de-secours_clone { width:1;height:1; }
+
+#menu-turlulence-pilotage{ width:200px !important; display:none;visibility:hidden; }
+#menu-turlulence-pilotage_clone { width:1;height:1; }
+
+#menu-menu-decrochage-asymetrique{ width:200px !important; display:none;visibility:hidden; }
+#menu-menu-decrochage-asymetrique_clone { width:1;height:1; }
+
+#menu-menu-le-decrochage-et-la-marche-arriere{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-le-decrochage-et-la-marche-arriere_clone { width:1;height:1; }
+#menu-menu-wing-overs { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-wing-overs_clone { width:1;height:1; }
+#menu-menu-pilotage-cross { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-pilotage-cross_clone { width:1;height:1; }
+#menu-menu-pilotage-pendulaire{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-pilotage-pendulaire_clone { width:1;height:1; }
+#menu-menu-autorotation{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-autorotation_clone { width:1;height:1; }
+#menu-menu-vrille{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-vrille_clone { width:1;height:1; }
+#menu-menu-twist{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-twist_clone { width:1;height:1; }
+#menu-menu-pilotage-parapente{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-pilotage-parapente_clone { width:1;height:1; }
+#menu-menu-profils-pilotage{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-profils-pilotage_clone { width:1;height:1; }
+#menu-menu-turbulence-pilotage{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-turbulence-pilotage_clone { width:1;height:1; }
+#menu-menu-la-tempo-2{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-la-tempo-2_clone { width:1;height:1; }
+#menu-menu-360-engages{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-360-engages_clone { width:1;height:1; }
+#menu-menu-descendre { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-descendre_clone { width:1;height:1; }
+#menu-menu-pendulaire-intro { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-pendulaire-intro_clone { width:1;height:1; }
+#menu-menu-pendulaire-roulis { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-pendulaire-roulis_clone { width:1;height:1; }
+#menu-menu-pendulaire-tangage { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-pendulaire-tangage_clone { width:1;height:1; }
+#menu-menu-360-initiation{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-360-initiation_clone { width:1;height:1; }
+#menu-menu-voltige-intro { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-voltige-intro_clone { width:1;height:1; }
+#menu-menu-voltige-SAT { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-voltige-SAT_clone { width:1;height:1; }
+#menu-menu-voltige-helicoptere{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-voltige-helicoptere_clone { width:1;height:1; }
+#menu-menu-voltige-360-asymetrique { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-voltige-360-asymetrique_clone { width:1;height:1; }
+
+#menu-menu-voltige-decrochage-dynamique { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-voltige-decrochage-dynamique_clone { width:1;height:1; }
+
+#menu-menu-voltige-enchainements { width:200px !important; display:none;visibility:hidden;}
+#menu-menu-voltige-enchainements_clone { width:1;height:1; }
+#menu-menu-voltige-autres-manoeuvres{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-voltige-autres-manoeuvres_clone { width:1;height:1; }
+
+
+#menu-le-twist-2{ width:200px !important; display:none;visibility:hidden;}
+#menu-le-twist-2_clone { width:1;height:1; }
+
+
+#menu-menu-bleu{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-bleu_clone { width:1;height:1; }
+#menu-menu-marron{ width:200px !important; display:none;visibility:hidden;}
+#menu-menu-marron_clone { width:1;height:1; }
+} 
+a.menuselected{color:#338333;font-weight:bold;text-decoration:none;background-color:#cfc}
