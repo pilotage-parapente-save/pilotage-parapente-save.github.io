@@ -398,9 +398,19 @@
 
 					if ( ! title )
 						title = '';
+					else {
+						title = title.replace( /[^]/g, function( c ) {
+							return '&#' + c.charCodeAt( 0 ) + ';';
+						} );
+					}
 
 					if ( ! caption )
 						caption = '';
+					else {
+						caption = caption.replace( /[^]/g, function( c ) {
+							return '&#' + c.charCodeAt( 0 ) + ';';
+						} );
+					}
 
 					// set description
 					el.attr( 'title', caption );
@@ -455,51 +465,6 @@
 						}
 					},
 					callback: function() {
-						// trigger image hide
-						rl_hide_image( script, lastImage );
-					}
-				} );
-				break;
-
-			case 'fancybox':
-				var lastImage = '';
-
-				$( 'a[rel*="' + selector + '"], a[data-rel*="' + selector + '"]' ).fancybox( {
-					modal: args.modal,
-					overlayShow: args.showOverlay,
-					showCloseButton: args.showCloseButton,
-					enableEscapeButton: args.enableEscapeButton,
-					hideOnOverlayClick: args.hideOnOverlayClick,
-					hideOnContentClick: args.hideOnContentClick,
-					cyclic: args.cyclic,
-					showNavArrows: args.showNavArrows,
-					autoScale: args.autoScale,
-					scrolling: args.scrolling,
-					centerOnScroll: args.centerOnScroll,
-					opacity: args.opacity,
-					overlayOpacity: parseFloat( args.overlayOpacity / 100 ),
-					overlayColor: args.overlayColor,
-					titleShow: args.titleShow,
-					titlePosition: args.titlePosition,
-					transitionIn: args.transitions,
-					transitionOut: args.transitions,
-					easingIn: args.easings,
-					easingOut: args.easings,
-					speedIn: parseInt( args.speeds ),
-					speedOut: parseInt( args.speeds ),
-					changeSpeed: parseInt( args.changeSpeed ),
-					changeFade: parseInt( args.changeFade ),
-					padding: parseInt( args.padding ),
-					margin: parseInt( args.margin ),
-					width: parseInt( args.videoWidth ),
-					height: parseInt( args.videoHeight ),
-					onComplete: function() {
-						lastImage = $( '#fancybox-content' ).find( 'img' ).attr( 'src' );
-
-						// trigger image view
-						rl_view_image( script, lastImage );
-					},
-					onClosed: function() {
 						// trigger image hide
 						rl_hide_image( script, lastImage );
 					}
