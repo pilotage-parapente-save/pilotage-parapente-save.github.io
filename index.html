@@ -13,6 +13,21 @@
 <!--<![endif]-->
 
     <div id="app" class="wp-singular page-template-default page page-id-1109 page-child parent-pageid-633 logged-in wp-theme-Divi wp-child-theme-Divichild theme-Divi woocommerce-js membership-content access-granted member-logged-in et_color_scheme_orange et_button_icon_visible et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns_1_4__3_4 osx et_pb_gutters2 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db chrome cookies-set cookies-accepted"></div>
+    <script>
+      // SPA redirect restore for GitHub Pages
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          });
+          window.history.replaceState(null, null,
+            decoded.shift() +
+            (decoded.length ? '?' + decoded.join('&') : '') +
+            l.hash
+          );
+        }
+      }(window.location));
+    </script>
     <script type="module" src="/assets/index-C1w4ZFuH.js"></script>
 <!--  </body>-->
 </html>
